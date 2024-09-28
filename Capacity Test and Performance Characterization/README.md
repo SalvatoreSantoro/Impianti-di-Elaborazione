@@ -1,0 +1,2 @@
+-VirtualBox 7.0.18 with Ubuntu 22.04.05
+-JMeter 5.6.3
