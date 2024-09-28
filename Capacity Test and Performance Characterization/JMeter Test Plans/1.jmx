@@ -57,7 +57,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\Users\39392\Desktop\Impianti Elaborazione\Homeworks\Capacity Test and Performance Characterization\1 - Capacity Test and Performance Analysis\data\CTT_3000_1.csv</stringProp>
+          <stringProp name="filename">C:\Users\39392\Desktop\Impianti Elaborazione\Homeworks\Capacity Test and Performance Characterization\1 - Capacity Test and Performance Analysis\data\CTT_8000_3.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
@@ -110,7 +110,7 @@
             <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
           </ConfigTestElement>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request 10KB">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request 10KB" enabled="true">
             <stringProp name="HTTPSampler.path">/10KB.html</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -121,7 +121,7 @@
             </elementProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request 50KB">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request 50KB" enabled="true">
             <stringProp name="HTTPSampler.path">/50KB.html</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -132,7 +132,7 @@
             </elementProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request 100KB">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request 100KB" enabled="true">
             <stringProp name="HTTPSampler.path">/100KB.html</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -143,7 +143,7 @@
             </elementProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request 1MB">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request 1MB" enabled="true">
             <stringProp name="HTTPSampler.path">/1MB.html</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -154,7 +154,7 @@
             </elementProp>
           </HTTPSamplerProxy>
           <hashTree/>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request 10MB">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request 10MB" enabled="true">
             <stringProp name="HTTPSampler.path">/10MB.html</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
@@ -168,7 +168,7 @@
           <ConstantThroughputTimer guiclass="TestBeanGUI" testclass="ConstantThroughputTimer" testname="Constant Throughput Timer">
             <doubleProp>
               <name>throughput</name>
-              <value>3000.0</value>
+              <value>8000.0</value>
               <savedValue>0.0</savedValue>
             </doubleProp>
             <intProp name="calcMode">2</intProp>
